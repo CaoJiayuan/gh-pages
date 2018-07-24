@@ -1,0 +1,14 @@
+{
+  "name": "gh-pages",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.12.0"
+  }
+}

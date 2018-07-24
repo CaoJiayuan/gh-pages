@@ -1,3 +1,6 @@
+language: node_js
+node_js: stable
+
 install:
   - npm install
 
@@ -9,6 +12,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: .vuepress/dist
-  keep-history: true
+  keep-history: false
   on:
     branch: gh-pages  

@@ -4,7 +4,7 @@
   "description": "Hello world",
   "main": "index.js",
   "scripts": {
-    "build": "vuepress build"
+    "build": "vuepress build docs"
   },
   "author": "",
   "license": "MIT",

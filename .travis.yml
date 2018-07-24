@@ -1,17 +1,18 @@
 language: node_js
 node_js: stable
 
-install:
-  - npm install
+cache:
+  directories:
+    - node_modules
 
 script:
-  - npm run build
+  - ./deploy.sh
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: docs/.vuepress/dist
-  keep-history: false
-  on:
-    branch: gh-pages  
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN
+#   local-dir: docs/.vuepress/dist
+#   keep-history: false
+#   on:
+#     branch: gh-pages  

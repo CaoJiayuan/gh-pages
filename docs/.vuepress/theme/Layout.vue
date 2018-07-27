@@ -31,4 +31,6 @@
 
 <style>
     @import '~vuetify/dist/vuetify.css';
+    @import "styles/theme.css";
+
 </style>

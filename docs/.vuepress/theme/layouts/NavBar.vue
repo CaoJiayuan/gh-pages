@@ -1,5 +1,6 @@
 <template>
-    <v-toolbar dense>
+    <v-toolbar dark color="primary" flat dense>
+        <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
             <template v-for="menu in menus">

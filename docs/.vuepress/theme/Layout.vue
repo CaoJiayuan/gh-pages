@@ -12,7 +12,6 @@
 
 <script>
   import NavBar from './layouts/NavBar'
-
   export default {
     components: {
       NavBar
@@ -31,5 +30,5 @@
 </script>
 
 <style>
-
+    @import '~vuetify/dist/vuetify.css';
 </style>

@@ -10,6 +10,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "vue-loader": "^15.2.6",
     "vuepress": "^0.12.0",
     "vuetify": "^1.1.8"
   }

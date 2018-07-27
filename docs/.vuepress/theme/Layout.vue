@@ -3,6 +3,7 @@
         <nav-bar></nav-bar>
         <v-content class="page-container">
             <v-container class="component-page">
+                <component :is="com"></component>
                 <Content/>
             </v-container>
         </v-content>
@@ -15,6 +16,16 @@
   export default {
     components: {
       NavBar
+    },
+    computed:{
+      com(){
+        return this.$page.frontmatter.component
+      }
+    },
+    watch:{
+      $page(now) {
+        console.log(now)
+      }
     }
   }
 </script>

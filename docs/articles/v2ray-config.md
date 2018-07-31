@@ -22,7 +22,7 @@ app:
 ```
 
 ### [server] etc/config.json  (using tls)
-``` json {18}
+``` json {18-29}
 {
   "log": {
     "loglevel": "warning",
@@ -61,7 +61,7 @@ app:
 ```
 
 ### [client] config.json  (using tls)
-```json {32}
+```json {32-35}
 {
   "log": {
     "loglevel": "warning"

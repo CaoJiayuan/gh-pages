@@ -11,7 +11,7 @@ title: v2ray configs
 
 ### Compose (using tls)
 
-``` yaml {3}
+``` yaml {4}
 app:
   image: v2ray/official
   volumes:
@@ -22,7 +22,7 @@ app:
 ```
 
 ### [server] etc/config.json  (using tls)
-``` json
+``` json {19}
 {
   "log": {
     "loglevel": "warning",
@@ -61,7 +61,7 @@ app:
 ```
 
 ### [client] config.json  (using tls)
-```json
+```json {32}
 {
   "log": {
     "loglevel": "warning"

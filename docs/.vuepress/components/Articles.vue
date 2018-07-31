@@ -1,6 +1,6 @@
 <template>
     <v-layout>
-        <v-flex  xs12 lg8 offset-lg2 offset-md1>
+        <v-flex  xs12 md8 lg6 offset-lg3 offset-md1>
             <list-view>
 
             </list-view>

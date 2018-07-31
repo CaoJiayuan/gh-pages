@@ -3,7 +3,7 @@ title: v2ray configs
 ---
 
 <center>
-<h1>Vray configs using docker </h1>
+<h1>V2Ray configs using docker </h1>
 </center>
 
 > A easy way to ..., you know what i mean (see [白话文教程](https://toutyrater.github.io/))
@@ -42,7 +42,7 @@ app:
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "tls", 
+      "security": "tls",
       "tlsSettings": {
         "certificates": [
           {
@@ -65,7 +65,7 @@ app:
 {
   "log": {
     "loglevel": "warning"
-  },  
+  },
   "inbound": {
     "port": 1080,
     "listen": "127.0.0.1",
@@ -75,20 +75,20 @@ app:
       "auth": "noauth",
       "udp": false,
       "ip": "127.0.0.1"
-    }   
-  },  
+    }
+  },
   "outbound": {
     "protocol": "vmess",
     "settings": {
      "vnext": [
-        {   
+        {
           "address": "domain",
           "port": 10443,
           "users": [
-            {   
+            {
               "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
               "alterId": 64
-            }   
+            }
           ]
         }
       ]

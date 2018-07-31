@@ -15,7 +15,7 @@ title: v2ray configs
 app:
   image: v2ray/official
   volumes:
-    - /root/.acme.sh/v2ray.enorith.com_ecc/:/etc/cert
+    - /root/.acme.sh/domain/:/etc/cert
     - ./etc/:/etc/v2ray
   ports:
     - 10443:443

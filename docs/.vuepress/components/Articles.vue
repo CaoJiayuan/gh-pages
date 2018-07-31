@@ -1,8 +1,10 @@
 <template>
-    <v-layout xs8>
-        <list-view>
+    <v-layout>
+        <v-flex  xs12 lg8 offset-lg2 offset-md1>
+            <list-view>
 
-        </list-view>
+            </list-view>
+        </v-flex>
     </v-layout>
 </template>
 

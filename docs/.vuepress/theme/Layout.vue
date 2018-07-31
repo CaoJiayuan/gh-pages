@@ -4,7 +4,13 @@
         <v-content class="page-container">
             <v-container class="component-page">
                 <component :is="com"></component>
-                <Content/>
+                <v-layout>
+                  <v-flex xs12 lg8 offset-lg2 offset-md1>
+                    <v-card class="app-content">
+                        <Content/>
+                    </v-card>
+                  </v-flex>
+                </v-layout>
             </v-container>
         </v-content>
     </v-app>

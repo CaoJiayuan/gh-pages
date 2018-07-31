@@ -1,5 +1,17 @@
-### compose
-```
+---
+title: v2ray configs
+---
+
+<center>
+<h1>Vray configs using docker </h1>
+</center>
+
+> A easy way to ..., you know what i mean (see [白话文教程](https://toutyrater.github.io/))
+
+
+### Compose (using tls)
+
+``` yaml {3}
 app:
   image: v2ray/official
   volumes:
@@ -9,7 +21,7 @@ app:
     - 10443:443
 ```
 
-### [server] etc/config.json
+### [server] etc/config.json  (using tls)
 ``` json
 {
   "log": {
@@ -28,7 +40,7 @@ app:
         }
       ]
     },
-    "streamSettings": { //enable tls
+    "streamSettings": {
       "network": "tcp",
       "security": "tls", 
       "tlsSettings": {
@@ -48,7 +60,7 @@ app:
 }
 ```
 
-### [client] config.json
+### [client] config.json  (using tls)
 ```json
 {
   "log": {
@@ -81,7 +93,7 @@ app:
         }
       ]
     },
-    "streamSettings": { //enable tls
+    "streamSettings": {
       "network": "tcp",
       "security": "tls"
     }

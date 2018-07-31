@@ -1,5 +1,6 @@
 ---
 component: Articles
 items:
-    - title: Hello world
+    - title: V2ray config
+      link: /articles/v2ray-config
 ---

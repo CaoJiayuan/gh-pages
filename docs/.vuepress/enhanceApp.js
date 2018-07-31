@@ -1,5 +1,5 @@
 import Vuetify from 'vuetify'
-require('./theme/styles/index.styl')
+require('./theme/styles/theme.styl')
 export default ({
   Vue,
   options,

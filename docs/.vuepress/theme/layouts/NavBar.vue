@@ -1,5 +1,5 @@
 <template>
-    <v-toolbar dark color="primary" flat dense>
+    <v-toolbar app dark color="primary" style="z-index: 100" flat dense fixed>
         <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">

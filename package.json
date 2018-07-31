@@ -14,6 +14,7 @@
     "node-sass": "^4.9.2",
     "postcss-loader": "^2.1.6",
     "sass-loader": "^7.0.3",
+    "scrollreveal": "^3.4.0",
     "vue-loader": "^15.2.6",
     "vuepress": "^0.12.0",
     "vuetify": "^1.1.8"

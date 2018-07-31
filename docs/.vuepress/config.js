@@ -1,9 +1,10 @@
 module.exports = {
+  title: 'Personal notes',
   themeConfig: {
     search: false,
     nav: [
       {text: 'Home', link: '/'},
-      {text: 'Articles', link: '/articles/'},
+      {text: 'Notes', link: '/notes/'}
     ]
   },
   markdown: {

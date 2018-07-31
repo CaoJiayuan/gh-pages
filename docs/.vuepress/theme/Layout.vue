@@ -1,8 +1,8 @@
 <template>
-    <v-app class="page-main">
+    <v-app class="page-main" id="app-content">
         <nav-bar></nav-bar>
-        <v-content class="page-container">
-            <v-container class="component-page">
+        <v-content app class="page-container">
+            <v-container class="component-page" fluid>
                 <component :is="com"></component>
                 <v-layout v-if="!com">
                   <v-flex xs12 lg8 offset-lg2 offset-md1>

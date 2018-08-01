@@ -9,8 +9,8 @@ items:
       description: Nginx 跨域配置
       date: '2018-07-32'
       link: nginx-cors
-    - title: V2ray config
+    - title: V2Ray config
       link: v2ray-config
-      description: emmmmmmmmmm
+      description: V2Ray config
       date: '2018-07-31'
 ---

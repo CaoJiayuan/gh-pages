@@ -27,10 +27,11 @@
         return this.$page.frontmatter.component
       }
     },
+    mounted(){
+      console.log(this.$page)
+    },
     watch:{
-      $page(now) {
-        console.log(now)
-      }
+      
     }
   }
 </script>

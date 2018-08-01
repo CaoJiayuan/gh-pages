@@ -1,5 +1,5 @@
 ---
-component: Articles
+component: notes
 items:
     - title: Nginx CORS
       description: Nginx enable CORS

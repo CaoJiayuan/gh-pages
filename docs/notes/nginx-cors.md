@@ -3,10 +3,10 @@ title: Enable CORS in nginx
 ---
 
 <center>
-<h1>Enable CORS in nginx </h1>
+<h1>Nginx 跨域配置 </h1>
 </center>
 
-> Config example
+> 配置文件
 
 ```nginx {5-14}
 server {

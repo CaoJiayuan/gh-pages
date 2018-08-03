@@ -1,6 +1,6 @@
 <template>
     <div>
-      <v-toolbar app dark color="primary" style="z-index: 100" flat dense fixed>
+      <v-toolbar app dark color="primary" style="z-index: 100"  dense fixed>
         <v-toolbar-side-icon @click="drawer = !drawer" class="hidden-md-and-up"></v-toolbar-side-icon>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">

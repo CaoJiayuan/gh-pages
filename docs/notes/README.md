@@ -1,6 +1,10 @@
 ---
 component: notes
 items:
+    - title: Enable bbr
+      description: Enable bbr
+      date: '2018-08-03'
+      link: enable-bbr
     - title: Useful scripts
       description: 一些有用的脚本
       date: '2018-07-32'

@@ -1,12 +1,12 @@
 ---
-title: Enable CORS in nginx
+title: Nginx configs
 ---
 
 <center>
-<h1>Nginx 跨域配置 </h1>
+<h1>Nginx 配置 </h1>
 </center>
 
-> 配置文件
+> Cors
 
 ```nginx {5-14}
 server {
@@ -25,4 +25,27 @@ server {
     }
 }
 
+```
+
+> TLS (using acme.sh)
+
+```nginx {4-10}
+server{
+  listen 80;
+  listen 443 ssl;
+  ssl_certificate    /root/.acme.sh/your_domain/fullchain.cer;
+  ssl_certificate_key /root/.acme.sh/your_domain/your_domain.key;
+  ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers         HIGH:!aNULL:!MD5;
+  ssl_prefer_server_ciphers on;
+  ssl_session_cache shared:SSL:10m;
+  ssl_session_timeout 10m;
+  server_name your_domain;
+
+  root /your/web/path;
+
+  if ($scheme != "https") {
+    return 301 https://$host$request_uri;
+  }
+}
 ```

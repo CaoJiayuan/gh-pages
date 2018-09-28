@@ -1,6 +1,10 @@
 ---
 component: notes
 items:
+    - title: Fragments
+      description: 代码片段(小程序直传oss)
+      date: '2018-09-28'
+      link: fragments
     - title: Install php7
       description: Install php 7 (centos)
       date: '2018-09-11'

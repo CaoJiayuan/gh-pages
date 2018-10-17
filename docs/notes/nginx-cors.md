@@ -49,3 +49,45 @@ server{
   }
 }
 ```
+
+> Websocket proxy
+
+```nginx
+map $http_upgrade $connection_upgrade {
+        default upgrade;
+        ''  close;
+}
+server{
+  listen 80;
+  server_name socket.your.domain;
+  location / {
+    proxy_pass http://127.0.0.1:13003; # pass websocket service
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-Ip $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection upgrade;
+    proxy_read_timeout 120s;
+  }
+}
+```
+
+
+
+> App proxy
+
+```nginx
+server{
+  listen 80;
+  # some configs
+  location / {
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Real-Port $remote_port;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_pass http://127.0.0.1:8080; # pass http service
+  }
+}
+```

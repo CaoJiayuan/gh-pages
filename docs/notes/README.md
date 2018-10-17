@@ -22,7 +22,7 @@ items:
       date: '2018-07-32'
       link: useful-scripts
     - title: Nginx configs
-      description: Nginx 配置(cors, tls, proxy...)
+      description: Nginx 配置(cors, tls, proxy, websocket proxy...)
       date: '2018-07-32'
       link: nginx-cors
     - title: V2Ray config

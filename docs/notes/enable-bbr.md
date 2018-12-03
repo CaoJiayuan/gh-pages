@@ -24,7 +24,7 @@ title: Enable bbr
 
 ```bash
 sysctl net.ipv4.tcp_available_congestion_control
-``` 
+```
 
  *shows*
 
@@ -41,3 +41,5 @@ sysctl net.ipv4.tcp_congestion_control
 ```bash
 lsmod | grep bbr
 ```
+
+> OpenVz [OpenVZ VPS 安装BBR加速SSR](https://www.jianshu.com/p/78bf7fa24e5e)

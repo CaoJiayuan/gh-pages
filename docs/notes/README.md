@@ -1,6 +1,10 @@
 ---
 component: notes
 items:
+    - title: Open port on centos
+      description: Open port on centos
+      date: '2019-07-18'
+      link: open-ports
     - title: Docker container access host
       description: Docker container access host
       date: '2018-10-16'

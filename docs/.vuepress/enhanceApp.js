@@ -1,4 +1,5 @@
 import Vuetify from 'vuetify'
+import Notes from './components/Notes'
 require('./theme/styles/theme.styl')
 export default ({
   Vue,
@@ -6,4 +7,5 @@ export default ({
   router
 }) => {
   Vue.use(Vuetify)
+  Vue.component('notes', Notes)
 }

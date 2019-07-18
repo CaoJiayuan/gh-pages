@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "markdown-it-highlightjs": "^3.0.0",
     "node-sass": "^4.9.2",
     "postcss-loader": "^2.1.6",
     "sass-loader": "^7.0.3",

@@ -16,7 +16,6 @@
   </div>
 </template>
 <script>
-  import ScrollReveal from 'scrollreveal';
 
   export default {
     props   : {
@@ -31,6 +30,7 @@
       },
     },
     mounted() {
+      const ScrollReveal = require('scrollreveal')
       let config = {
         viewFactor: 0.15,
         duration  : 800,

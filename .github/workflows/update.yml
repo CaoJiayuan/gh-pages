@@ -20,9 +20,12 @@ jobs:
       run: |
         npm ci
         npm run build
-    - name: Deploy Gist
+    - name: Deploy
       run: |
-        chmod +x deploy.sh
-        /deploy.sh
+        cd docs/.vuepress/dist
+        git init
+        git add -A
+        git commit -m 'deploy'
+        git push -f https://${GITHUB_TOKEN}@github.com/caojiayuan/caojiayuan.github.io.git master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

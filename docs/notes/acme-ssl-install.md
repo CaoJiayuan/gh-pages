@@ -53,7 +53,7 @@ acme.sh --issue -d test.domain.com -w /var/www/le_root
 > 安装
 
 ```hash
-mkdir -p /etc/nginx/certs
+mkdir -p /etc/nginx/certs/test.domain.com
 acme.sh --install-cert -d test.domain.com \
   --cert-file /etc/nginx/certs/test.domain.com/cert \
   --key-file /etc/nginx/certs/test.domain.com/key \

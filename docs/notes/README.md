@@ -1,6 +1,10 @@
 ---
 component: notes
 items:
+    - title: SSL cert install
+      description: install ssl cert using acme.sh
+      date: '2022-08-11'
+      link: acme-ssl-install
     - title: Open port on centos
       description: Open port on centos
       date: '2019-07-18'

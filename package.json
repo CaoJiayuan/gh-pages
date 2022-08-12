@@ -1,23 +1,25 @@
 {
-  "name": "gh-pages",
+  "name": "enorith-document",
   "version": "1.0.0",
-  "description": "Hello world",
+  "description": "A golang framework for web artisan",
   "main": "index.js",
   "scripts": {
+    "serve": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "dev": "vuepress dev docs"
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enorith/document.git"
   },
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enorith/document/issues"
+  },
+  "homepage": "https://github.com/enorith/document#readme",
   "devDependencies": {
-    "css-loader": "^1.0.0",
-    "markdown-it-highlightjs": "^3.0.0",
-    "node-sass": "^4.9.2",
-    "postcss-loader": "^2.1.6",
-    "sass-loader": "^7.0.3",
-    "scrollreveal": "^3.4.0",
-    "vue-loader": "^15.2.6",
-    "vuepress": "^0.12.0",
-    "vuetify": "^1.1.8"
+    "vuepress": "^2.0.0-beta.26"
   }
 }

@@ -17,7 +17,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     themeConfig: {
         repo: "CaoJiayuan/gh-pages",
         docsRepo: "CaoJiayuan/gh-pages",
-        docsBranch: "v2",
+        docsBranch: "master",
         docsDir: "docs",
         sidebar: sidebar.en,
         home: "/",

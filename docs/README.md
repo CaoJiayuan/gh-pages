@@ -7,17 +7,6 @@ actions:
   - text: 开始
     link: /notes/001-start-page.html
     type: primary
-features:
-  - title: Simplicity first
-    details: Less code, powerfull features.
-  - title: Components
-    details: Extract service as components.
-  - title: IoC-Container
-    details: Inject dependency automaticly.
-  - title: Not only for web
-    details: App service design can run any daemon service.
-  - title: More...
-    details: Waitting for discover.
 
-footer: MIT Licensed | Copyright © 2021-present Cao Jiayuan
+footer: MIT Licensed | Copyright © 2022-present Cao Jiayuan
 ---

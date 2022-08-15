@@ -5,7 +5,7 @@ name: Update github pages
 
 on:
   push:
-    branches: [ "v2" ]
+    branches: [ "master" ]
 jobs:
   build:
     runs-on: ubuntu-latest

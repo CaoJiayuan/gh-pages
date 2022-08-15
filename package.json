@@ -1,5 +1,5 @@
 {
-  "name": "enorith-document",
+  "name": "github-io-document",
   "version": "1.0.0",
   "description": "A golang framework for web artisan",
   "main": "index.js",

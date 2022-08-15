@@ -2,10 +2,6 @@
 title: Install php7 (centos example)
 ---
 
-<center>
-<h1>Install php7 (centos)</h1>
-</center>
-
 ## install dependencies
 
 > Build tools

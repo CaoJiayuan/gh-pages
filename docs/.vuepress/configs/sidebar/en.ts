@@ -1,16 +1,11 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
-
-
-
+import { walkDocs } from '../../utils/func'
 
 export const en: SidebarConfig = {
     '/': [
         {
             text: '笔记',
-            children: [
-                '/notes/getting-started.md',
-                '/guide/project-structure.md',
-            ],
+            children: walkDocs('notes'),
         },
     ],
 }

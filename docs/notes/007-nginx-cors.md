@@ -2,10 +2,6 @@
 title: Nginx configs
 ---
 
-<center>
-<h1>Nginx 配置 </h1>
-</center>
-
 > Cors
 
 ```nginx {5-14}

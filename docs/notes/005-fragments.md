@@ -2,10 +2,6 @@
 title: Fragments
 ---
 
-<center>
-<h1>代码片段</h1>
-</center>
-
 ## 小程序直传OSS
 
 ```javascript

@@ -1,9 +1,6 @@
 ---
 title: Docker container access host
 ---
-<center>
-<h1>Docker container access host </h1>
-</center>
 
 > Docker for Mac
 

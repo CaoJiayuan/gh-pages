@@ -2,11 +2,6 @@
 title: Useful scripts
 ---
 
-<center>
-<h1>一些脚本</h1>
-</center>
-
-
 ## Startup script (centos)
 
 ```bash

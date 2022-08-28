@@ -1,5 +1,5 @@
 ---
-title: Useful scripts
+title: 一些有用的脚本
 ---
 
 ## Startup script (centos)
@@ -24,4 +24,10 @@ systemctl start docker
 pip install docker-compose
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # use oh-my-zsh!
 chsh -s /bin/zsh
+```
+
+## 查找本地docker镜像并移除
+
+```bash
+docker images | grep xxx |  awk '{print $3}' | xargs docker rmi --force
 ```
